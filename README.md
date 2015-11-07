@@ -36,3 +36,11 @@ list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 	}
 });
 ```
+
+#### Layout
+```xml
+<com.hivedi.widget.listviewex.ListViewEx
+	android:id="@+id/list"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"/>
+```
