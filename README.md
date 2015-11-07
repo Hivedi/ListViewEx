@@ -9,7 +9,23 @@ Prevent onItemClick listener calls twice (or more times)
 ### Second feature
 Fix some exceptions on old android  (before API 14)
 
-## Sampe code
+###Repo
+```
+repositories {
+	maven {
+		url "https://jitpack.io"
+	}
+}
+```
+
+###Dependences
+```
+dependencies {
+	compile 'com.github.Hivedi:ListViewEx:1.0.0'
+}
+```
+
+### Sampe code
 ```java
 ListViewEx list = (ListViewEx) findViewById(R.id.list);
 list.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new String[]{"item1", "item2", "item 3"}));
