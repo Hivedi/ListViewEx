@@ -45,11 +45,11 @@ public class ListViewEx extends ListView {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (itemClick != null && System.currentTimeMillis() - lastItemClick > getClickDelay()) {
+                    lastItemClick = System.currentTimeMillis();
                     itemClick.onItemClick(parent, view, position, id);
                 } else {
                     // skip click event when fired too quickly
                 }
-                lastItemClick = System.currentTimeMillis();
             }
         };
     }
