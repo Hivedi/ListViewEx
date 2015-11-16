@@ -21,7 +21,7 @@ repositories {
 ###Dependences
 ```
 dependencies {
-	compile 'com.github.Hivedi:ListViewEx:1.0.0'
+	compile 'com.github.Hivedi:ListViewEx:1.0.2'
 }
 ```
 
